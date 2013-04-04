@@ -7,7 +7,7 @@ describe FaradayMiddleware::EncodeOj do
     @request = {:a => 1}
 
     @connection = Faraday.new do |builder|
-      builder.use FaradayMiddleware::EncodeOj
+      builder.request :oj
       builder.adapter :test do |stub|
         stub.post('/url', Oj.dump(@request)) do
           [200, {}, @parsed_body]

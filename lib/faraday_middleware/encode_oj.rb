@@ -50,3 +50,5 @@ module FaradayMiddleware
     end
   end
 end
+
+Faraday.register_middleware :request, oj: FaradayMiddleware::EncodeOj
