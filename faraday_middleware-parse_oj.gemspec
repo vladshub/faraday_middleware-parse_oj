@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/faraday_middleware/parse_oj', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = %w(Vsevolod Romashov)
   gem.email         = %w(7@7vn.ru)
