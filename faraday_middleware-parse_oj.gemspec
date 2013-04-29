@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = 'faraday_middleware-parse_oj'
   gem.require_paths = %w(lib)
-  gem.version       = '1.0.3'
+  gem.version       = '1.0.4'
   
   gem.add_dependency 'faraday_middleware', '~> 0.9'
   gem.add_dependency 'oj',                 '~> 2.0'

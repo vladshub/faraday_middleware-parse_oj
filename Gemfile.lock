@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    faraday_middleware-parse_oj (1.0.3)
+    faraday_middleware-parse_oj (1.0.4)
       faraday_middleware (~> 0.9)
       oj (~> 2.0)
 
